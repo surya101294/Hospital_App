@@ -1,21 +1,67 @@
-# Masai Hospital (FullStack)
+# Hospital (FullStack)
 
-## `**Instructions**`
+# TechStack
+ # Front-End
+- HTML
+- CSS
+- JavaScript
+- React
 
-- Read the entire question carefully for at least 15 mins, understand it and then code it.
-- Don’t jump directly into the code.
-- Commit your code every hour with a proper commit message to your repository (we will monitor every commit)
-- Use **React** for Frontend.
-- Use **Redux** for state management.
-- Use **Chakra-UI or MUI** for styled components.
-- Use **Node, Express, Mongo (NEM)** for backend.
+# Back-End
+- NodeJS
+- Express
+- MongoDB
 
----
+# External CSS Library
+-Chakra UI
 
+#Front-End Deployment - vercel
+#Back-End Deployment - Cyclic 
+
+# Homepage
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230497963-1c596709-0057-4622-9402-d57619c0b1c0.png"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230498140-3a3e2fdb-7e24-4c07-9e60-080b8183d78a.gif"/></td>
+  </tr>
+</table>
+
+# SignUpPage
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230498679-7d1d19db-b04e-491c-9392-248a0ae749cb.png"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230498764-9530c1bd-93b7-418a-baea-9e25dd8f5013.gif"/></td>
+  </tr>
+</table>
+
+# SignInPage
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230498644-24bd3a3f-ebd9-4bca-9e80-e4adef6b236e.png"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230498785-cbd706d9-0376-49a1-ad45-c11db35de77e.gif"/></td>
+  </tr>
+</table>
+
+# CreateAppointmentPage
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230498997-d06e8da6-e8a8-458d-a4a5-bdb454a763f3.png"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230498853-4583ba32-1013-4b26-8fbd-be38ac7a7254.gif"/></td>
+  </tr>
+</table>
+
+
+# BookAppointmentPage
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230499025-b6257a30-7a08-418a-b2a0-a9d2df04fe09.png"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/112858852/230499040-fc8dfc9a-63f2-48b2-a38a-4296eaa8a81f.png"/></td>
+  </tr>
+</table>
 ## `**Problem Statement**`
 
 - The objective is to create a Full Stack application using **React** as frontend and **NEM** as backend which facilitates seamless booking of medical appointments with doctors by the patients.
-- Your app should have the following routes
+- App should have the following routes
     - Signup & Login
     - Create Appointments
     - Book Appointments
@@ -26,11 +72,8 @@
 
 - This route should have a login and register form, which the user should be able to toggle between login and register, and the corresponding form should be shown.
     
-    
-    ![                                                          Toggling Signup and Login Form](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/374f7f3b-743d-437f-ae3f-531636bccc26/3.gif)
-    
-                                                              Toggling Signup and Login Form
-    
+   
+   
 
 - This user should be prompted by a signup form, where the user will enter the following credentials
     - Email
@@ -61,44 +104,13 @@
     - Fee
 - On form submit, store data in backend server on API “**/appointments**”.
 
----
-
 ## **`Book Appointments`**
 
 - Fetch all the appointments posted from the backend server and list them in the form of cards.
 - Sample API Response
-    
-    ```jsx
-    [
-    	{
-    	  "name": "Jane Doe",
-    	  "image": "https://example.com/doctor-image.jpg",
-    	  "specialization": "Dermatologist",
-    	  "experience": 10,
-    	  "location": "Los Angeles",
-    	  "date": "2023-04-05T12:00:00.000Z",
-    		"slots" : 2,
-    	  "fee": 150
-    	},
-    	{
-    	  "name": "Mark Johnson",
-    	  "image": "https://example.com/doctor-image.jpg",
-    	  "specialization": "Pediatrician",
-    	  "experience": 5,
-    	  "location": "Chicago",
-    	  "date": "2023-04-06T09:30:00.000Z",
-    		"slots" : 1,
-    	  "fee": 100
-    	}
-    ]
-    ```
-    
 
-- The UI should look like
 
-![                                                                             UI Reference Image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3dddd88-5054-43fc-a28b-d1d2105ca525/Masai_Hospital.png)
 
-                                                                             UI Reference Image
 
 - Your app should have the following functionalities and **should be implemented using backend.**
     - **Filter** by Specialization (**Cardiologist, Dermatologist, Pediatrician, Psychiatrist**)
@@ -112,30 +124,6 @@
 
 ## `**Backend`**
 
-- Create all relevant APIs for user auth, posting, and fetching appointments.
+- Creating all relevant APIs for user auth, posting, and fetching appointments.
 - Filter, Sort, Search and Pagination should be done through API. (**Doing this manually through fronted will be considered null and void**)
 - Take care of all good practices - naming conventions, MVC structure etc.
-
----
-
-## `**Submission`**
-
-- Please submit deployed link and GitHub link of code.
-- **Deploy backend as well**.
-- **Push your code into `masai-repo`, don’t submit personal repo links.**
-- Please double check if deployed version works or not (run deployed version on your laptop and then submit it).
-- Any issues in deployed link, will be considered null and void.
-- Please verify your submissions are correct.
-- Make sure you follow all instructions carefully.
-- Submit before deadline.
-
----
-
-## `**Rubrics`**
-
-- React
-- Node, Express and Mongo
-- Backend APIs and code structure
-- Filter, Sort, Search, and Pagination functionality through backend.
-- Pixel perfect UI.
-- Code cleanliness.
