@@ -13,7 +13,7 @@
 - MongoDB
 
 # External CSS Library
--Chakra UI
+-Material UI
 
 #Front-End Deployment - vercel
 #Back-End Deployment - Cyclic 
